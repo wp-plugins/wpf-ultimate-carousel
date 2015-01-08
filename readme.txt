@@ -33,22 +33,22 @@ Live Demo: http://wpfreeware.com/preview/wpf-ultimate-carousel
 Remember: Must put a unique name in each shortcode, If you want to use 3 carousel in one page then you can put in the first carousel name="carousel-1", second name="carousel-2" & 3rd name="carousel-3".
 If you are using one news ticker in one page then leave it.
 
-1. General Carousel
+----- General Carousel -----------
 
-<pre>[wpf_carousel name="my-carousel" title="Title Goes here"]</pre> //name=(unique-name)
+<pre>[wpf_carousel name="my-carousel" title="Title Goes here"] //name=(unique-name)</pre>
 
-2. Carousel form category
+----- Carousel form category ---------
 
-<pre>[wpf_carousel name="my-carousel-2" category="category name" title="Title Goes here"]</pre> //name=(unique-name)
-
- 
-
-3. Carousel form custom taxonomy
-
-<pre>[wpf_carousel name="my-carousel-3" taxonomy="your-taxonomy-name" category="category name" title="Title goes here"]</pre> //name=(unique-name)
+<pre>[wpf_carousel name="my-carousel-2" category="category name" title="Title Goes here"] //name=(unique-name)</pre> 
 
  
-Shortcode attributes are:
+
+----- Carousel form custom taxonomy  ----------
+
+<pre>[wpf_carousel name="my-carousel-3" taxonomy="your-taxonomy-name" category="category name" title="Title goes here"] //name=(unique-name)</pre>
+
+ 
+----- Shortcode attributes are: ------
 
 <pre>post_type="post"  // default is "post"</pre>
 info: Which post type you want to display.
@@ -105,12 +105,15 @@ e.g.
 == Frequently Asked Questions ==
 
 How to install the plugin?
+
 Answer: Read install tab for letting about installation.
 
 Where I can use this plugin?
+
 Answer: You can use this plugin anywhere you want through shortcode. Read shortcode details in description tab.
 
 What to do after install this plugin?
+
 Answer: No need to do anything, it will works on the fly. Install the plugin & use plugin shortcode anywhere in your theme you want.
 
 == Screenshots ==
